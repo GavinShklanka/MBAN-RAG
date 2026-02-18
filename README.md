@@ -1,4 +1,5 @@
 
+
 # Vanilla RAG vs Agentic RAG (MedlinePlus)
 
 This project implements two systems for healthcare information retrieval:

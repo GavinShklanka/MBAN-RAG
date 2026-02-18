@@ -1,0 +1,9 @@
+{
+  "question": "major depressive disorder and generalized anxiety disorder",
+  "mode": "run_vanilla_rag",
+  "metrics": {
+    "coverage": 0.6,
+    "tokens": 1766,
+    "latency": 5.986546277999878
+  }
+}

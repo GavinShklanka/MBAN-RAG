@@ -1,0 +1,31 @@
+[project]
+name = "agentic-ai-rag"
+version = "0.1.0"
+description = "Vanilla RAG vs Agentic RAG (MedlinePlus) with budget filters + polished UI"
+requires-python = ">=3.11"
+dependencies = [
+  "requests>=2.32.0",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.2.0",
+  "typer>=0.12.0",
+  "pydantic>=2.7.0",
+  "python-dotenv>=1.0.0",
+  "tiktoken>=0.7.0",
+  "diskcache>=5.6.0",
+  "chromadb>=0.5.0",
+  "langchain>=0.2.0",
+  "langchain-openai>=0.1.0",
+  "streamlit>=1.36.0",
+  "numpy>=2.4.2",
+  "langchain-community>=0.4.1",
+  "fastapi>=0.129.0",
+  "uvicorn>=0.41.0",
+  "python-multipart>=0.0.22",
+  "bs4>=0.0.2",
+]
+
+[project.scripts]
+rag = "app.cli:app"
+
+[tool.ruff]
+line-length = 100
